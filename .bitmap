@@ -9,5 +9,11 @@
  */
 
 {
+    "ui/counter": {
+        "scope": "",
+        "version": "",
+        "mainFile": "counter.js",
+        "rootDir": "src/components/counter"
+    },
     "$schema-version": "14.9.0"
 }

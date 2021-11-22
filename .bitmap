@@ -10,8 +10,8 @@
 
 {
     "ui/counter": {
-        "scope": "",
-        "version": "",
+        "scope": "codenameninja.practice",
+        "version": "0.0.1",
         "mainFile": "counter.js",
         "rootDir": "src/components/counter"
     },

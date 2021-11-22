@@ -1,7 +1,7 @@
 import React from 'react';
 import Enzyme, { shallow } from 'enzyme';
 import EnzymeAdapter from '@wojtekmaj/enzyme-adapter-react-17';
-import Counter from './Counter';
+import Counter from './counter';
 
 Enzyme.configure({ adapter: new EnzymeAdapter() });
 

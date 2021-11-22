@@ -24,20 +24,44 @@ This is a question that, of course, is very important and not always easy to ans
 But a good rule of thumb is to think about things where you would want to be alerted if something happened
 and they weren't working properly anymore.
 
-So for our quick counter, we definitely want there to be a button.
+So a basic test would be to test if the component rendered properly
+```js
+test('renders without error', () => {
+
+});
+
+```
+and also for our quick counter, we definitely want there to be a button.
+```js
+test('renders increment button', () => {
+
+});
+```
 
 So the first thing will test or I should say the second thing after the fact that the render didn't
-
 cause any errors is that the increment button is rendered.
 
 It wouldn't be much of a click counter if it didn't show the count.
 
 So let's also test that it shows the counter display.
+```js
+test('renders counter display', () => {
 
+});
+```
 We want to make sure that the counter display starts out at zero.
+```
 
+test('counter starts at 0', () => {
+
+});
+```
 And then finally, our core functionality is when you click the button, it should increment the counter.
-
+```js
+test('counter increments when button is clicked', () => {
+  
+});
+```
 And and the question here is, are we going to test the state that it increments the counter state or
 
 we're going to test that in increments, the counter display, and here we are going to test behavior
@@ -53,26 +77,3 @@ reason to celebrate at this point in TDD or test driven development.
 We want to be seeing failing tests so that we can write the code to make them pass.
 
 So let's work on making those tests red and then green again in the next lecture.
-
-```js
-
-test('renders without error', () => {
-
-});
-
-test('renders increment button', () => {
-
-});
-
-test('renders counter display', () => {
-
-});
-
-test('counter starts at 0', () => {
-
-});
-
-test('counter increments when button is clicked', () => {
-  
-});
-```

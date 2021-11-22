@@ -5,4 +5,4 @@ I will be trying to learn how to write unit tests in React, with the aid of bit.
 [Bit.dev](https://bit.dev/codenameninja/practice)
 
 ## Link to documention
-[Link](https://codenameninja.github.io/Bit-testing-react/)
+[Link](https://codenameninja.github.io/Bit-React-Dummy-Components/)

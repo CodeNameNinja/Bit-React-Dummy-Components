@@ -3,7 +3,12 @@
     "title": "Click Counter(Setup)",
     "children": {
       "data-test-attributes": {
-        "title": "Data Test Attributes"
+        "title": "Data Test Attributes",
+        "children": {
+          "first-data-test-attribute": {
+            "title": "First Data Test Attribute"
+          }
+        }
       }
     }
   }

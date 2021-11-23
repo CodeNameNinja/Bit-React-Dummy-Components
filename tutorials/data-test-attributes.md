@@ -21,10 +21,6 @@ and actually using an expected statement to throw the error.
 
 So let's take a look at what that data test attribute is going to look like.
 
-![Data test attributes](../tutorials-assets/data-test-attributes.png)
+![Data test attributes](../tutorial-assets/data-test-attributes.png)
 
 lets add a data test attribute to the counter component.
-```js
- <div data-test="component-app" className="App">
-      <h1 data-test="counter-display">
-```

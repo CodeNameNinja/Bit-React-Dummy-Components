@@ -16,6 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "install": "bit install",
     "doc": "jsdoc -c jsdoc.json"
   },
   "eslintConfig": {

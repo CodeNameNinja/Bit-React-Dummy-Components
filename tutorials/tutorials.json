@@ -9,6 +9,9 @@
             "title": "First Data Test Attribute"
           }
         }
+      },
+      "remove-data-test-attributes-from-prod": {
+          "title": "Remove Data Test Attributes from Prod"
       }
     }
   }

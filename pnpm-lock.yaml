@@ -14,6 +14,7 @@ importers:
       '@types/react-dom': ^17.0.11
       '@types/testing-library__jest-dom': 5.9.5
       '@wojtekmaj/enzyme-adapter-react-17': 0.6.5
+      babel-plugin-react-remove-properties: 0.3.0
       core-js: ^3.19.1
       enzyme: 3.11.0
       jsdoc: 3.6.7
@@ -26,6 +27,7 @@ importers:
       '@testing-library/react': registry.npmjs.org/@testing-library/react/11.2.7_react-dom@17.0.2+react@17.0.2
       '@testing-library/user-event': registry.npmjs.org/@testing-library/user-event/12.8.3
       '@wojtekmaj/enzyme-adapter-react-17': registry.npmjs.org/@wojtekmaj/enzyme-adapter-react-17/0.6.5_fae758709a8810ba97b4c03852dde4d0
+      babel-plugin-react-remove-properties: registry.npmjs.org/babel-plugin-react-remove-properties/0.3.0
       core-js: registry.npmjs.org/core-js/3.19.1
       enzyme: registry.npmjs.org/enzyme/3.11.0
       jsdoc: registry.npmjs.org/jsdoc/3.6.7
@@ -3937,6 +3939,12 @@ packages:
       '@babel/helper-define-polyfill-provider': registry.npmjs.org/@babel/helper-define-polyfill-provider/0.3.0_@babel+core@7.12.3
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  registry.npmjs.org/babel-plugin-react-remove-properties/0.3.0:
+    resolution: {integrity: sha512-vbxegtXGyVcUkCvayLzftU95vuvpYFV85pRpeMpohMHeEY46Qe0VNWfkVVcCbaZ12CXHzDFOj0esumATcW83ng==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/babel-plugin-react-remove-properties/-/babel-plugin-react-remove-properties-0.3.0.tgz}
+    name: babel-plugin-react-remove-properties
+    version: 0.3.0
     dev: false
 
   registry.npmjs.org/babel-plugin-syntax-object-rest-spread/6.13.0:

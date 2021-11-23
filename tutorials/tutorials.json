@@ -6,7 +6,12 @@
         "title": "Data Test Attributes",
         "children": {
           "first-data-test-attribute": {
-            "title": "First Data Test Attribute"
+            "title": "First Data Test Attribute",
+            "children": {
+              "more-data-test-attributes":{
+                "title": "More Data Test Attributes"
+              }
+            }
           }
         }
       },

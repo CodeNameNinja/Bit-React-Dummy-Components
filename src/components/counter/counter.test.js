@@ -18,7 +18,7 @@ Enzyme.configure({ adapter: new EnzymeAdapter() });
 /**
  * Return ShallowWrapper containing node(s) with the given data-test value.
  * @param {ShallowWrapper} wrapper - Enzyme shallow wrapper to search within.
- * @param {string} val - Value of data-test c1scoL0ve!
+ * @param {string} val - Value of data-test
  * 
  */
 const findByTestAttr = (wrapper, val) => {

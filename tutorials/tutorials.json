@@ -9,7 +9,12 @@
             "title": "First Data Test Attribute",
             "children": {
               "more-data-test-attributes":{
-                "title": "More Data Test Attributes"
+                "title": "More Data Test Attributes",
+                "children": {
+                  "DRY-refactor": {
+                    "title": "DRY Refactor"
+                  }
+                }
               }
             }
           }

@@ -9,6 +9,12 @@
  */
 
 {
+    "congrats": {
+        "scope": "",
+        "version": "",
+        "mainFile": "congrats.js",
+        "rootDir": "src/components/jotto/Congrats"
+    },
     "ui/counter": {
         "scope": "codenameninja.practice",
         "version": "0.0.2",

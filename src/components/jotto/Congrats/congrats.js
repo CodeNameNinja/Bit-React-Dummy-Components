@@ -6,8 +6,18 @@ import React from 'react';
  * @param {object} props - React props 
  * @returns {JSX.Element} - Congrats component
  */
-function Congrats({ success }) {
-    return <div><h1>Hello</h1></div>
+const Congrats = ({ success }) => {
+    if (success) {
+        return (<div data-test="component-congrats">
+            <span data-test="congrats-message">
+                Congratulations! you guessed the word!
+            </span>
+        </div>
+        )
+    } else {
+        return (
+            <div data-test="component-congrats"></div>
+        )
+    }
 }
-
-export default Congrats
+export default Congrats;

@@ -17,7 +17,7 @@
     },
     "ui/counter": {
         "scope": "codenameninja.practice",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "counter.js",
         "rootDir": "src/components/counter"
     },
